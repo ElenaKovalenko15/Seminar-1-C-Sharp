@@ -2,7 +2,7 @@
 Console.Write("Прошу ввести число");
 int week = Convert.ToInt32(Console.ReadLine());
 
-if ((week > 7) | (week < 1))
+if ((week > 7) || (week < 1))
 {
     Console.WriteLine("Неверное число");
 
