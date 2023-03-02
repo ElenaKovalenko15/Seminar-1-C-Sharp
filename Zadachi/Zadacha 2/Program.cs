@@ -7,10 +7,10 @@ int numB = int.Parse(Console.ReadLine());
 
 int max = numA;
 
-if (max > numB);
-else
+if (max < numB)
 {
     max = numB;
 }
+
 Console.Write("max = ");
 Console.WriteLine(max);
