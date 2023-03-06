@@ -4,7 +4,9 @@ Console.Clear();
 
 int[] array = new int[8];
 FillArray(array);
-PrintArray(array);
+//PrintArray(array);
+
+Console.WriteLine($"[{String.Join(",", array)}]");
 
 void FillArray(int[] array)
 {
